@@ -1,0 +1,7 @@
+table {
+    color: #eee;
+}
+
+body.light table {
+    color: #012;
+}

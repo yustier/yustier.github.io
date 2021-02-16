@@ -1,0 +1,13 @@
+.page {
+    max-width: 900px;
+    font-family: 'Source Serif Pro', 'Noto Serif JP', serif;
+
+}
+
+table {
+    color: #eee;
+}
+
+body.light table {
+    color: #012;
+}

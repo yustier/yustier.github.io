@@ -1,0 +1,68 @@
+.title-index {
+    font-size: 36px;
+    text-align: center;
+    color: #eee;
+    margin: 20px auto 0;
+    font-family: 'Josefin Slab', serif;
+}
+
+.tobirae {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.enter-wrapper {
+    display: table;
+    margin: 0 auto;
+}
+
+.update {
+    color: #eee;
+    display: table-cell;
+    vertical-align: middle;
+    width: 40%;
+}
+
+body.light .update {
+    color: #012;
+}
+
+.label {
+    font-size: 15px;
+    text-align: right;
+    font-family: 'Josefin Slab', serif;
+}
+
+.data {
+    font-size: 12px;
+    text-align: left;
+    font-family: 'martel', serif;
+}
+
+.enter {
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Manrope', sans-serif;
+}
+
+.update-right {
+    display: table-cell;
+    vertical-align: middle;
+    width: 40%;
+}
+
+.sakusha {
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+    margin: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body.light .sakusha {
+    color: #666;
+}
