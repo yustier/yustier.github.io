@@ -1,0 +1,232 @@
+@font-face {
+    font-family: "airokussans";
+    src: url("../font/AirokuSSans0.woff2") format("woff2"),
+         url("../font/AirokuSSans0.woff") format("woff");
+}
+
+body {
+    background-color: #012;
+}
+
+body.light {
+    background-color: #ccc;
+}
+
+h1, p, li, h2, h3 {
+    color: #eee;
+}
+
+body.light h1, body.light p, body.light li, body.light h2, body.light h3 {
+    color: #012;
+}
+
+a {
+    color: #0cf;
+}
+
+body.light a {
+    color: #06c;
+}
+
+a:visited {
+    color: #08f;
+}
+
+body.light a:visited {
+    color: #92b;
+}
+
+body a:hover, body.light a:hover {
+    color: #fff;
+}
+
+body a:active, body.light a:active {
+    color: #f44;
+}
+
+header {
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5em;
+    background-color: #024;
+    box-shadow: 0 5px 0 0 rgba(0, 0, 0, .5);
+}
+
+body.light header {
+    background-color: #bcf;
+}
+
+.title-wrapper {
+    display: table;
+    margin: 0 auto;
+}
+
+.icon {
+    width: 48px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.icon:hover {
+    opacity: 0.5;
+}
+
+.title-spacer {
+    width: 6px;
+    display: table-cell;
+}
+
+.titles {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.title-latin {
+    font-size: 24px;
+    font-family: 'Josefin Slab', serif;
+    margin: 0 auto;
+}
+
+.title-japanese {
+    font-size: 14px;
+    font-family: 'Noto Serif JP', serif;
+    margin: 0 auto;
+}
+
+.navigation {
+    list-style-type: none;
+    padding-left: 0;
+    padding-top: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+.navigation li {
+    display: inline;
+    font-family: 'Josefin Slab', serif;
+}
+
+.header-padding {
+    padding-top: 5em;
+}
+
+.page {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #023;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, .5);
+    font-family: 'Noto Serif JP', serif;
+}
+
+body.light .page {
+    background-color: #eee;
+}
+
+.page-title {
+    font-size: 32px;
+    display: block;
+    text-align: center;
+    text-shadow: 0.05em 0.05em 0 rgba(0, 0, 0, .5);
+    font-family: 'Josefin Slab', serif;
+    margin: 10px;
+}
+
+.page-headline2 {
+    font-size: 24px;
+    display: block;
+    text-align: left;
+    text-shadow: 0.05em 0.05em 0 rgba(0, 0, 0, .5);
+    font-family: 'Josefin Slab', serif;
+    margin: 20px auto;
+}
+
+body.light .page-title, body.light .page-headline2 {
+    text-shadow: 0.05em 0.05em 0 rgba(0, 0, 0, .3);
+}
+
+.footer-menu {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+/* light-theme switch by https://webparts.cman.jp */
+#light-theme-wrapper {
+line-height    : 30px;
+letter-spacing : 0;
+text-align     : center;
+font-size      : 12px;
+font-family: 'martel', serif;
+
+position: relative;
+top: 0;
+vertical-align: middle;
+margin         : 0 0 0 auto;
+width          : 75px;
+}
+
+/* delete checkbox */
+#light-theme-wrapper input[type="checkbox"] {
+    display        : none;
+}
+
+/* dark */
+#light-theme-wrapper label {
+    display        : block;
+    box-sizing     : border-box;
+    height         : 30px;
+    border         : 2px solid #eee;
+    border-radius  : 15px;
+}
+
+/* light */
+#light-theme-wrapper input[type="checkbox"]:checked +label {
+    border-color   : #023;
+}
+
+/* dark label */
+#light-theme-wrapper label span:after{
+    content        : "Dark";
+    padding        : 0 0 0 18px;
+    color          : #eee;
+}
+
+/* light label */
+#light-theme-wrapper  input[type="checkbox"]:checked + label span:after{
+    content        : "Light";
+    padding        : 0 18px 0 0;
+    color          : #023;
+}
+
+/* dark circle */
+#light-theme-wrapper #swImg {
+    position       : absolute;
+    width          : 22px;
+    height         : 22px;
+    background     : #eee;
+    top            : 4px;
+    left           : 4px;
+    border-radius  : 11px;
+    z-index: -1;
+}
+
+/* light circle */
+#light-theme-wrapper input[type="checkbox"]:checked ~ #swImg {
+    transform      : translateX(45px);
+    background     : #023;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+    margin: 10px;
+    font-family: 'Martel','Noto Sans JP', sans-serif;
+}
+
+body.light .copyright {
+    color: #666;
+}
