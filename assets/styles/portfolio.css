@@ -1,7 +1,5 @@
 .page {
-    max-width: 900px;
     font-family: 'Source Serif Pro', 'Noto Serif JP', serif;
-
 }
 
 table {
@@ -10,4 +8,9 @@ table {
 
 body.light table {
     color: #012;
+}
+
+.musics-wrapper {
+    white-space: nowrap;
+    overflow-x: scroll;
 }

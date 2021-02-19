@@ -28,6 +28,10 @@ body.light .update {
     color: #012;
 }
 
+th, td {
+    border-width: 0;
+}
+
 .label {
     font-size: 15px;
     text-align: right;

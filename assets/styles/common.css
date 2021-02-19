@@ -44,6 +44,12 @@ body a:active, body.light a:active {
     color: #f44;
 }
 
+th, td {
+    border-width: 0px 0px 1px;
+    border-color: #888;
+    border-style: solid;
+}
+
 header {
     padding: 10px;
     position: fixed;
